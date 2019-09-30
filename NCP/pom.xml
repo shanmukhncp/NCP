@@ -7,7 +7,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>NCP_DirectLending_Automation</name>
+  <name>NCP</name>
    <build>
         <!-- Source directory configuration -->
            <plugins>
@@ -19,7 +19,7 @@
                 <configuration>
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
-                        <suiteXmlFile>OnlineBankModel.xml</suiteXmlFile>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
                         
                     </suiteXmlFiles>
                 </configuration>
