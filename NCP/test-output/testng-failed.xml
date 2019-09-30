@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qfund.ncp.testscripts.onlinebankmodel.OnlineBankModelBatch">
+        <methods>
+          <include name="usCitizen199APROhioOfferCode"/>
+          <include name="usCitizen199APROhio"/>
+          <include name="getResult"/>
+          <include name="nonUsCitizen199APROhio"/>
+          <include name="usCitizen199APPRCA"/>
+          <include name="initialize"/>
+          <include name="quit"/>
+          <include name="nonUsCitizen199APRCA"/>
+          <include name="usCitizen99APROhio"/>
+          <include name="usCitizen99APR"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qfund.ncp.testscripts.onlinebankmodel.OnlineBankModelBatch -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
